@@ -42,12 +42,26 @@ Users should be able to:
 
 ### Screenshot
 
-![](Capture.JPG)
+### Home Screen
+
+[](./public/project1.PNG)
+
+### New Form
+
+[](./public/project2.PNG)
+
+### Candidate Details
+
+[](./public/project3.PNG)
+
+### Edit Details
+
+[](./public/project4.PNG)
 
 ### Links
 
 - Solution URL: [Source Code](https://github.com/zaidansari42/candidate-dashboard)
-- Live Site URL: [Live Link](https://canididates.netlify.app)
+- Live Site URL: [Candidate App](https://canididates.netlify.app)
 
 ### Built with
 
@@ -60,18 +74,6 @@ Users should be able to:
 ### What I learned
 
 I learned how CSS Grid comes very much handy in positioning the sections and applying the styles, either if we want a different one. Or want to repeat the same style. and even while building a responsive one, it removes the hassles.
-
-```html
-<blockquote>An overall wonderful and rewarding experience</blockquote>
-```
-
-```css
-section.grid:nth-child(3),
-section.grid:nth-child(5) {
-  background-color: var(--White);
-  color: var(--Very_dark_grayish_blue);
-}
-```
 
 ## Author
 
