@@ -42,19 +42,19 @@ Users should be able to:
 
 ### Screenshot
 
-### Home Screen
+Home Screen
 
 ![](./public/project1.PNG)
 
-### New Form
+New Form
 
 ![](./public/project2.PNG)
 
-### Candidate Details
+Candidate Details
 
 ![](./public/project3.PNG)
 
-### Edit Details
+Edit Details
 
 ![](./public/project4.PNG)
 
