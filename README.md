@@ -71,10 +71,6 @@ Edit Details
 - React Routing
 - Flexbox
 
-### What I learned
-
-I learned how CSS Grid comes very much handy in positioning the sections and applying the styles, either if we want a different one. Or want to repeat the same style. and even while building a responsive one, it removes the hassles.
-
 ## Author
 
 - Website - [Zaid Ansari](https://zaidansari42.netlify.app/)
