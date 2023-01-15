@@ -298,13 +298,9 @@ function NewForm() {
                   className="btn btn-primary d-flex align-items-center gap-2"
                 >
                   {hobby}
-                  <button
-                    type="button"
-                    className="btn btn-danger"
-                    onClick={() => onHobbyDeleteClick(hobby)}
-                  >
-                    X
-                  </button>
+                  <div type="button" onClick={() => onHobbyDeleteClick(hobby)}>
+                    <i class="bi bi-x-lg text-warning"></i>
+                  </div>
                 </div>
               ))}
             </div>
@@ -317,7 +313,7 @@ function NewForm() {
                 className="btn btn-info fs-1 py-0"
                 onClick={addeducation}
               >
-                +
+                <i class="bi bi-plus-square"></i>
               </button>
             </div>
             <hr />
@@ -364,7 +360,7 @@ function NewForm() {
                 className="btn btn-info fs-1 py-0"
                 onClick={addskills}
               >
-                +
+                <i class="bi bi-plus-square"></i>
               </button>
             </div>
             <hr />
@@ -410,7 +406,7 @@ function NewForm() {
                 className="btn btn-info fs-1 py-0"
                 onClick={addexperience}
               >
-                +
+                <i class="bi bi-plus-square"></i>
               </button>
             </div>
             <hr />

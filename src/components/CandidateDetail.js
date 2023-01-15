@@ -63,7 +63,7 @@ function CandidateDetail() {
         <div className="row">
           <div className="d-flex justify-content-between my-2">
             <h2>1: Personal Details</h2>
-            <div className="d-flex gap-4">
+            <div className="d-flex gap-4 align-items-center">
               <Link
                 to={`/candidate/${id}/edit`}
                 type="button"

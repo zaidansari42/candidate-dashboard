@@ -226,7 +226,7 @@ function EditForm() {
                 className="btn btn-danger my-2"
                 onClick={() => navigate(`/candidate/${id}`)}
               >
-                X
+                <i class="bi bi-x-lg"></i>
               </button>
             </div>
             <hr />
@@ -334,15 +334,14 @@ function EditForm() {
                   className="btn btn-primary d-flex align-items-center gap-2"
                 >
                   {hobby}
-                  <button
+                  <div
                     type="button"
-                    className="btn btn-danger"
                     onClick={() => {
                       onHobbyDeleteClick(hobby);
                     }}
                   >
-                    X
-                  </button>
+                    <i class="bi bi-x-lg text-warning"></i>
+                  </div>
                 </div>
               ))}
             </div>
@@ -354,7 +353,7 @@ function EditForm() {
                 className="btn btn-info fs-1 py-0"
                 onClick={addeducation}
               >
-                +
+                <i class="bi bi-plus-square"></i>
               </button>
             </div>
             <hr />
@@ -403,7 +402,7 @@ function EditForm() {
                 className="btn btn-info fs-1 py-0"
                 onClick={addskills}
               >
-                +
+                <i class="bi bi-plus-square"></i>
               </button>
             </div>
             <hr />
@@ -451,7 +450,7 @@ function EditForm() {
                 className="btn btn-info fs-1 py-0"
                 onClick={addexperience}
               >
-                +
+                <i class="bi bi-plus-square"></i>
               </button>
             </div>
             <hr />
