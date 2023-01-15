@@ -16,12 +16,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### Links
+
+- Solution URL: [Source Code](https://github.com/zaidansari42/candidate-dashboard)
+- Live Site URL: [Candidate App](https://canididates.netlify.app)
+
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -56,11 +60,6 @@ Candidate Details
 Edit Details
 
 ![](./public/project4.PNG)
-
-### Links
-
-- Solution URL: [Source Code](https://github.com/zaidansari42/candidate-dashboard)
-- Live Site URL: [Candidate App](https://canididates.netlify.app)
 
 ### Built with
 
