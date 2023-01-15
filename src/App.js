@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { GoogleOAuthProvider } from '@react-oauth/google';
+import { GoogleLogin } from '@react-oauth/google';
+
+import { useState } from 'react';
+import Home from './components/Home';
+import { CandidateContextProvider } from './context/candidateContext';
 
 function App() {
+  const [userLogedIn, setUserLogedIn] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CandidateContextProvider>
+      {userLogedIn ? (
+        <Home />
+      ) : (
+        <div className="d-flex flex-column">
+          <GoogleOAuthProvider clientId="531846578448-upcvgmhri7pq45m5o8lglt5f34ri5ek5.apps.googleusercontent.com">
+            <GoogleLogin
+              onSuccess={(credentialResponse) => {
+                console.log(credentialResponse);
+                setUserLogedIn(true);
+              }}
+              onError={() => {
+                console.log('Login Failed');
+              }}
+            />
+          </GoogleOAuthProvider>
+          <div>
+            <h2>Login to Continue</h2>
+          </div>
+        </div>
+      )}
+    </CandidateContextProvider>
   );
 }
 

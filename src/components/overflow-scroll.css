@@ -1,0 +1,9 @@
+.scroll-y {
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+.scroll-yr {
+  height: 85vh;
+  overflow-y: scroll;
+}
