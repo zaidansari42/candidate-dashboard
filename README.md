@@ -44,19 +44,19 @@ Users should be able to:
 
 ### Home Screen
 
-[](./public/project1.PNG)
+![](./public/project1.PNG)
 
 ### New Form
 
-[](./public/project2.PNG)
+![](./public/project2.PNG)
 
 ### Candidate Details
 
-[](./public/project3.PNG)
+![](./public/project3.PNG)
 
 ### Edit Details
 
-[](./public/project4.PNG)
+![](./public/project4.PNG)
 
 ### Links
 
